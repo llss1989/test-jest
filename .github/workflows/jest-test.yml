@@ -19,8 +19,11 @@ jobs:
     steps:
       
      # Runs a single command using the runners shell
+      - name: install Node
+        run: sudo apt-get update || sudo apt-get install nodejs
+           
       - name: npm dependency setting
-        run: npm install || npm update
+        run: npm install
         
       - name: test
         run: npm run test
