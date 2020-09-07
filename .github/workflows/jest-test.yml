@@ -21,6 +21,14 @@ jobs:
      # Runs a single command using the runners shell
       - name: npm dependency setting
         run: npm install
+        
+      - name: test
+        run: npm test
+         
+      
+      
+         
+         
       
         
         
