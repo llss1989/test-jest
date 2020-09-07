@@ -1,2 +1,2 @@
 Status of Last Deployment:<br>
-[![Build Status](https://travis-ci.com/llss1989/test-jest.svg?branch=master)](https://travis-ci.com/llss1989/test-jest)
+![Node.js CI](https://github.com/llss1989/test-jest/workflows/Node.js%20CI/badge.svg)
